@@ -1,2 +1,0 @@
-# AlgoPractice
-Created with CodeSandbox
