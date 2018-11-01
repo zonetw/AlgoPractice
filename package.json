@@ -4,9 +4,11 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js localhost 8080"
+    "start": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jest": "latest"
+  },
   "devDependencies": {
     "nodemon": "1.18.4"
   },
