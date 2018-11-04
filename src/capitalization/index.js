@@ -1,7 +1,12 @@
 //solution 1: split sentence into words by space and deal with them separately
 function capitalize(str) {
   let wordsArr = str.split(" ").map(word => {
-    return word[0].toUpperCase() + word.slice(1);
+    if (word) {
+      return word[0].toUpperCase() + word.slice(1);
+    } else {
+      console.log('word is ""');
+      return "";
+    }
   });
 
   return wordsArr.join(" ");
